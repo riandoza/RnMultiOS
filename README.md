@@ -5,11 +5,25 @@
 - MACOS
 - WINDOWS
 
-If you found error in Invalid Podfile file unexpected template EOS
-Solved:
+### How to use
+Clone this repository
+```
+git clone https://github.com/riandoza/RnMultiOS.git
+cd RnMultiOS
+yarn install
+```
 
-> cd macos
->
-> bundle install
->
-> bundle exec pod install
+#### If you found error in Invalid Podfile file unexpected template EOS
+```
+cd macos
+bundle install
+bundle exec pod install
+```
+
+### How to run
+```
+yarn ios
+yarn android
+yarn macos
+yarn windows
+```
